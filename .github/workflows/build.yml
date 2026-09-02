@@ -37,10 +37,10 @@ jobs:
 
       - name: Find and extract project ZIP
         run: |
-          ZIP_FILE=$(find . -maxdepth 1 -type f -name "Keven666UI_FULL_BUILD_READY_v2.zip" | head -n 1)
+          ZIP_FILE=$(find . -maxdepth 1 -type f -name "Keven666UI_FULL_BUILD_READY_v4.zip" | head -n 1)
 
           if [ -z "$ZIP_FILE" ]; then
-            echo "ERROR: No se encontró Keven666UI_FULL_BUILD_READY_v2.zip"
+            echo "ERROR: No se encontró Keven666UI_FULL_BUILD_READY_v4.zip"
             exit 1
           fi
 
